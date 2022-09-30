@@ -1,0 +1,191 @@
+*****************************************************************************************************************************************************************************
+Get a name in any format and print it with first letter in Caps:
+
+// var getInput = prompt("What is your name");
+// var getFirstInput = getInput.slice(0,1);
+// var caps = getFirstInput.toUpperCase();
+// var getRestInput = getInput.slice(1,getInput.length);
+// var lower = getRestInput.toLowerCase();
+
+// alert("Hello" + " " +caps + lower);
+
+*****************************************************************************************************************************************************************************
+
+How to calculate in JavaScript
+// var dogAge = prompt("What is your dog's age? :" );
+// var humanAge =(dogAge -2)* 4 + 2;
+// alert("The calculated human age is : " + " " +humanAge);
+
+*****************************************************************************************************************************************************************************
+How to calculate bottle of milk
+// var oneBottleOfMilk = 1.5;
+
+
+// function getMilk(dollars) {   
+//   console.log("leaveHouse");
+//   console.log("moveRight");
+//   console.log("moveRight");
+//   console.log("moveUp");
+//   console.log("moveUp");
+//   console.log("moveUp");
+//   console.log("moveUp");
+//   console.log("moveRight");
+//   console.log("moveRight");
+//   console.log("buy" + " " + parseInt (dollars / oneBottleOfMilk) + " bottles of Milk");
+//   console.log("moveLeft");
+//   console.log("moveLeft");
+//   console.log("moveDown");
+//   console.log("moveDown");
+//   console.log("moveDown");
+//   console.log("moveDown");
+//   console.log("moveLeft");
+//   console.log("moveLeft");
+//   console.log("enterHouse");
+//  return dollars % oneBottleOfMilk;
+
+// }
+// var change = getMilk(49);
+// console.log("The remaining dollars :" + change);
+
+*****************************************************************************************************************************************************************************
+
+BMI Calculator passing 2 parameters.
+// function bmiCalculator(Weight, height){
+//     return Math.floor(Weight / height);
+// }
+
+
+// var bmiCalculator = bmiCalculator (65, 2);
+
+// console.log (bmiCalculator);
+*****************************************************************************************************************************************************************************
+Generating random Number and using If and else:
+// var number = Math.random();
+// number= number* 6;
+// console.log (number);
+// number = Math.floor (number) + 1;
+// console.log (number);
+
+// var gentleManName = prompt ("Enter gentlemans Name :");
+// var nameOfYourLove = prompt ("Enter the name of your love");
+// number = Math.random() * 100;
+// // number = number*100;
+// number = Math.floor(number)+1 ;
+
+// if(number > 70){
+// console.log("The percentage of Love between" +" "+ gentleManName + " and" + " " +nameOfYourLove + " is" + " " +number + "%" + " You are the perfect match" );
+// }
+
+// else{
+//     console.log("The percentage of Love between" +" "+ gentleManName + " and" + " " +nameOfYourLove + " is" + " " +number + "%");
+// }
+
+*****************************************************************************************************************************************************************************
+
+Calculating BMI uisng iF and Else 
+// function bmiCalculator (weight, height) {
+//     var interpretation = Math.floor(weight / height);
+//     return interpretation;
+//     }
+
+// var bmiCalculator = bmiCalculator (100, 2);
+
+// if (bmiCalculator < 18.5){
+//     console.log("Your BMI is " + " " +bmiCalculator + " So you are underweight" )
+// }
+// if (bmiCalculator>18.5 && bmiCalculator<24.9 ){
+//     console.log("Your BMI is " + " " +bmiCalculator + " So you are normal Weight" )
+// }
+// if (bmiCalculator >24.9){
+//     console.log("Your BMI is " + " " +bmiCalculator + " So you are Over Weight" )
+// }
+*****************************************************************************************************************************************************************************
+
+How to use Arrays in Java Script:
+
+// var guestList = ["Raj", "Ram", "Venu" , "Gopal"];
+// var guestname= prompt("What is your name ");
+
+// if (guestList.includes(guestname)){
+
+//    console.log ("Welcome" + " " +guestname);
+
+// } else {
+//     console.log("Sorry, Your name is not in list");
+// }
+
+*****************************************************************************************************************************************************************************
+
+Fizzbuzz program uisng If else and for loop
+
+var output = [];
+var count =1;
+   
+  
+function fizzBuzz(){
+
+    for (count =1 ; count<101; count++){
+
+if (count % 3 === 0 && count % 5 === 0){
+    output.push("FizzBuzz");
+}else if (count % 3 === 0){
+    output.push("Fizz");
+}else if (count % 5 === 0){
+    output.push("Buzz");
+}else{
+output.push(count);
+ 
+}
+  
+    }
+   console.log(output);
+}
+
+*****************************************************************************************************************************************************************************
+calling another function in new function.
+
+function add (num1, num2){
+    return num1 + num2;
+}
+
+function multiply (num1, num2){
+    return num1 * num2;
+}
+
+function divide (num1, num2){
+    return num1 / num2;
+}
+
+function substract (num1, num2){
+    return num1 - num2;
+}
+
+
+function calculator (num1,num2,operator){
+    return operator (num1, num2);
+}
+
+*****************************************************************************************************************************************************************************
+app.JS Template.
+//jshint esversion:6
+
+
+const express = require("express");
+const bodyParser = require("body-parser");
+
+
+const app = express();
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", function(req, res) {
+
+    res.send("Hello World");
+
+});
+
+app.listen(3000, function() {
+    console.log("server started in port 3000");
+});
+
+*********************************************************************************************************************************************************************************

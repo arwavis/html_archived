@@ -1,0 +1,55 @@
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.myprofile-picture {
+  width: 150px;
+}
+
+.basketball-pircture {
+  width: 200px;
+}
+
+.basketball-circular {
+  border-radius: 100%;
+}
+
+.martialarts-picture {
+  width: 200px;
+}
+
+.martialarts-circular {
+  border-radius: 100%;
+}
+
+.music-picture {
+  width: 200px;
+}
+
+.music-circular {
+  border-radius: 100%;
+}
+
+.gym-picture {
+  width: 200px;
+}
+
+.gym-circular {
+  border-radius: 100%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 50px;
+}
+
+h3 {
+  color: #66BFBF;
+}
